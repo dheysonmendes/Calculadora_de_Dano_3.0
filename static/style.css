@@ -1,0 +1,60 @@
+.bg{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('https://ae01.alicdn.com/kf/H78c66ae8d4cd4cf0b63a6afceda3876fj/50-p-s-demon-slayer-kimetsu-n-o-yaiba-anime-pvc-graffiti-adesivos-scrapbookingpara-skate-guitarra.jpg_640x640.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.calculadora-dano {
+      
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid #a81313;
+    border-radius: 20px;
+    background-color: #fefeffab;    
+}
+
+.linha-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;}
+
+.elementos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.elemento {
+    cursor: pointer;
+}
+
+.elemento p {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(5, 61, 22);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selecionado {
+    border: 2px solid rgb(12, 233, 78);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#ataque {
+    font-size: medium;
+    font-weight: bold;
+}
